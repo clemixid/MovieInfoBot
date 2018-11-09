@@ -4,7 +4,7 @@ const request = require('request');
 const functions = require('firebase-functions');
 
 const host = 'http://www.omdbapi.com';
-const OMDbApiKey = '<ENTER_WWO_API_KEY_HERE>';
+const OMDbApiKey = '<ENTER_OMDb_API_KEY_HERE>';
 
 /**
  * a call to the external API OMDb to get the movie infos
