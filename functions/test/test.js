@@ -1,6 +1,6 @@
 const assert = require('assert');
-const OMDbApiCaller = require('../index');
 const nock = require('nock');
+const OMDbApiCaller = require('../index');
 
 describe('OMDb Api Call known', () => {
   beforeEach(() => {
