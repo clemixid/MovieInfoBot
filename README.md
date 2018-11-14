@@ -5,7 +5,7 @@
 ### Firebase CLI
 1. Create a [Dialogflow Agent](https://console.dialogflow.com/)
 2. `git clone https://github.com/clemixid/MovieInfoBot.git`
-3. In Dialogflow console under **Settings** ⚙ > [Restore from Zip](https://dialogflow.com/docs/agents#export_and_import) using the `weather-agent.zip` in this directory.
+3. In Dialogflow console under **Settings** ⚙ > [Restore from Zip](https://dialogflow.com/docs/agents#export_and_import) using the `MovieInfoBot.zip` in this directory.
 4. Get a OMDb API key from http://www.omdbapi.com/apikey.aspx
 5. Replace <ENTER_OMDb_API_KEY_HERE> with your OMDb API key on line 7 of `functions/index.js`
 6. `cd` to the `functions` directory
